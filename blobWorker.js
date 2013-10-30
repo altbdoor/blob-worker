@@ -41,7 +41,7 @@ var blobWorker = (function () {
 		
 		if (typeof(addJs) !== 'undefined') {
 			for (var i=0; i<addJs.length; i++) {
-				str += 'importScripts(' + addJs[i] + ');';
+				str += 'importScripts("' + addJs[i] + '");';
 			}
 		}
 		
