@@ -25,7 +25,7 @@ foo.prepare({
     arg:        /* the argument to send (postMessage) to Web Worker */,
     success:    /* callback function when the Web Worker is done */,
     error:      /* OPTIONAL callback function when Web Worker encounters errors */,
-    addJs:      /* OPTIONAL list of string to add into Web Worker (importStrings) */
+    addJs:      /* OPTIONAL list of scripts to add into Web Worker (importScripts) */
 });
 ```
 
